@@ -6,7 +6,7 @@
 ## ❒ SquareNet — Bijective Gridification of Point Clouds
 
 
-> Note: Squarenet have been completey revisited to a better and faster gridification algorithm, see  https://github.com/Neighborhood-Grid/gridpoints
+> Note: Squarenet have been completey revisited to a better and faster gridification algorithm, please switch to https://github.com/Neighborhood-Grid/gridpoints
 
 This repository hosts the `SquareNet` python package for bijective gridification. SquareNet maps unstructured **point clouds** to structured grids through a **bijective transformation**: Each point is assigned to exactly one cell, and conversely each cell to one point. No voids, no overlaps: points are simply reindexed and reordered into a tensor square/cubic/hypercubic layout. 
 
