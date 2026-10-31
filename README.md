@@ -2,9 +2,11 @@
 [![PyPI version](https://img.shields.io/pypi/v/squarenet.svg)](https://pypi.org/project/squarenet/)
 [![Documentation Status](https://readthedocs.org/projects/squarenet/badge/?version=latest)](https://squarenet.readthedocs.io/en/latest/)
 [![GitHub](https://img.shields.io/badge/GitHub-Source-6f42c1?logo=github)](https://github.com/Neighborhood-Grid/SquareNet)
-[![HF demo](https://img.shields.io/badge/🤗%20Open%20in%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/adec314/point-to-grid)
 
 ## ❒ SquareNet — Bijective Gridification of Point Clouds
+
+
+> Note: Squarenet have been completey revisited to a better and faster gridification algorithm, see  https://github.com/Neighborhood-Grid/gridpoints
 
 This repository hosts the `SquareNet` python package for bijective gridification. SquareNet maps unstructured **point clouds** to structured grids through a **bijective transformation**: Each point is assigned to exactly one cell, and conversely each cell to one point. No voids, no overlaps: points are simply reindexed and reordered into a tensor square/cubic/hypercubic layout. 
 
